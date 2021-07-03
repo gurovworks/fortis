@@ -1,0 +1,75 @@
+body {
+	min-width: 320px;
+	position: relative;
+	font-family: "OpenSansRegular", sans-serif;
+	overflow-x: hidden;
+}
+.hidden {
+	display: none;
+}
+.navbar-brand {
+	padding:0;
+	position: relative;
+	z-index: 1;
+}
+.main_head .lead {
+	color: #fff;
+	font-family: "OpenSansBold", sans-serif;
+}
+.main_head .navbar {
+	margin-bottom: 0;
+}
+.main_head .phone_top {
+	position: relative;
+	top: 12px;
+	text-align: center;
+}
+.carousel-inner .slide_img,
+.carousel-inner .slide_img::before {
+	content: '';
+	position: absolute;
+	display: block;
+	background-color: rgba(36,36,36,.67);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+.main_head ul.navbar-nav {
+	position: relative;
+	z-index: 1;
+}
+.carousel-inner .h1 {
+	font-family: "OpenSansBold", sans-serif;
+	line-height: 1.5;
+	margin-top: 0;
+}
+.box .form-group {
+	margin-bottom: 0;
+}
+.panel-heading {
+	padding: 5px;
+}
+.box_search .panel-default {
+	border: none;
+}
+.box_search .panel-default > .panel-heading {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border-radius: 4px;
+}
+.box_back h4 {
+	display: inline;
+	font-size: 14px;
+	font-family: "OpenSansBold" , sans-serif;
+}
+.box_back .btn {
+	font-size: 12px;
+	text-transform: none;
+	font-family: "OpenSansBold" , sans-serif;
+	padding: 6px 4px ;
+	float: right;
+}
+.box_back .input-group:first-child {
+	margin-bottom: 10px;
+}
